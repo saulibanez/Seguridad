@@ -1,0 +1,5 @@
+arg: 0 es ./a.out
+arg: 1 es -v
+arg: 2 es a
+arg: 3 es b
+arg: 4 es c

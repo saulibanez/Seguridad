@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#gcc -g -Wall -Wshadow -c hmacsha1.c
+#gcc -o hmacsha1 hmacsha1.o
+
+gcc -o hmacsha1 -Wall hmacsha1.c -lssl -lcrypto
